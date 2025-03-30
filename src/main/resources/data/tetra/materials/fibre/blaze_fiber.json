@@ -1,0 +1,36 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+    "key": "blaze_fiber",
+    "category": "fibre",
+    "primary": 6.5,
+    "secondary": 3.5,
+    "tertiary": 3.5,
+    "durability": 270,
+    "integrityCost": 2,
+    "integrityGain": 3,
+    "magicCapacity": 131,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "ff9c19",
+        "texture": "ff9c19"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [ "ars_nouveau:blaze_fiber" ]
+    },
+    "effects": {
+        "source_leech": 4
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    }
+}
